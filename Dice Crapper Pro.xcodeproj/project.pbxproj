@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		E47CA9781C4A1F3E0062EDA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CA9771C4A1F3E0062EDA4 /* AppDelegate.swift */; };
-		E47CA97A1C4A1F3E0062EDA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CA9791C4A1F3E0062EDA4 /* ViewController.swift */; };
-		E47CA97D1C4A1F3E0062EDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47CA97B1C4A1F3E0062EDA4 /* Main.storyboard */; };
 		E47CA97F1C4A1F3E0062EDA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E47CA97E1C4A1F3E0062EDA4 /* Assets.xcassets */; };
 		E47CA9821C4A1F3E0062EDA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47CA9801C4A1F3E0062EDA4 /* LaunchScreen.storyboard */; };
 		E47CA98D1C4A1F3F0062EDA4 /* Dice_Crapper_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CA98C1C4A1F3F0062EDA4 /* Dice_Crapper_ProTests.swift */; };
 		E47CA9981C4A1F3F0062EDA4 /* Dice_Crapper_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CA9971C4A1F3F0062EDA4 /* Dice_Crapper_ProUITests.swift */; };
+		E47CA9A61C4A1FA50062EDA4 /* GameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CA9A51C4A1FA50062EDA4 /* GameVC.swift */; };
+		E47CA9A81C4A1FDB0062EDA4 /* RulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E47CA9A71C4A1FDB0062EDA4 /* RulesVC.swift */; };
+		E47CA9AD1C4A21850062EDA4 /* lose.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E47CA9A91C4A21850062EDA4 /* lose.mp3 */; };
+		E47CA9AE1C4A21850062EDA4 /* roll.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E47CA9AA1C4A21850062EDA4 /* roll.mp3 */; };
+		E47CA9AF1C4A21850062EDA4 /* tapped.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E47CA9AB1C4A21850062EDA4 /* tapped.mp3 */; };
+		E47CA9B01C4A21850062EDA4 /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E47CA9AC1C4A21850062EDA4 /* win.mp3 */; };
+		E47CA9B21C4A30D30062EDA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E47CA9B11C4A30D30062EDA4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +41,6 @@
 /* Begin PBXFileReference section */
 		E47CA9741C4A1F3E0062EDA4 /* Dice Crapper Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dice Crapper Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47CA9771C4A1F3E0062EDA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E47CA9791C4A1F3E0062EDA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E47CA97C1C4A1F3E0062EDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E47CA97E1C4A1F3E0062EDA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E47CA9811C4A1F3E0062EDA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E47CA9831C4A1F3E0062EDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +50,13 @@
 		E47CA9931C4A1F3F0062EDA4 /* Dice Crapper ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dice Crapper ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E47CA9971C4A1F3F0062EDA4 /* Dice_Crapper_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dice_Crapper_ProUITests.swift; sourceTree = "<group>"; };
 		E47CA9991C4A1F3F0062EDA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E47CA9A51C4A1FA50062EDA4 /* GameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameVC.swift; sourceTree = "<group>"; };
+		E47CA9A71C4A1FDB0062EDA4 /* RulesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RulesVC.swift; sourceTree = "<group>"; };
+		E47CA9A91C4A21850062EDA4 /* lose.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lose.mp3; sourceTree = "<group>"; };
+		E47CA9AA1C4A21850062EDA4 /* roll.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = roll.mp3; sourceTree = "<group>"; };
+		E47CA9AB1C4A21850062EDA4 /* tapped.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tapped.mp3; sourceTree = "<group>"; };
+		E47CA9AC1C4A21850062EDA4 /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		E47CA9B11C4A30D30062EDA4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				E47CA9771C4A1F3E0062EDA4 /* AppDelegate.swift */,
-				E47CA9791C4A1F3E0062EDA4 /* ViewController.swift */,
-				E47CA97B1C4A1F3E0062EDA4 /* Main.storyboard */,
+				E47CA9B11C4A30D30062EDA4 /* Main.storyboard */,
 				E47CA97E1C4A1F3E0062EDA4 /* Assets.xcassets */,
 				E47CA9801C4A1F3E0062EDA4 /* LaunchScreen.storyboard */,
 				E47CA9831C4A1F3E0062EDA4 /* Info.plist */,
+				E47CA9A51C4A1FA50062EDA4 /* GameVC.swift */,
+				E47CA9A71C4A1FDB0062EDA4 /* RulesVC.swift */,
+				E47CA9A91C4A21850062EDA4 /* lose.mp3 */,
+				E47CA9AA1C4A21850062EDA4 /* roll.mp3 */,
+				E47CA9AB1C4A21850062EDA4 /* tapped.mp3 */,
+				E47CA9AC1C4A21850062EDA4 /* win.mp3 */,
 			);
 			path = "Dice Crapper Pro";
 			sourceTree = "<group>";
@@ -232,9 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E47CA9B21C4A30D30062EDA4 /* Main.storyboard in Resources */,
+				E47CA9AF1C4A21850062EDA4 /* tapped.mp3 in Resources */,
 				E47CA9821C4A1F3E0062EDA4 /* LaunchScreen.storyboard in Resources */,
+				E47CA9B01C4A21850062EDA4 /* win.mp3 in Resources */,
+				E47CA9AE1C4A21850062EDA4 /* roll.mp3 in Resources */,
+				E47CA9AD1C4A21850062EDA4 /* lose.mp3 in Resources */,
 				E47CA97F1C4A1F3E0062EDA4 /* Assets.xcassets in Resources */,
-				E47CA97D1C4A1F3E0062EDA4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +278,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47CA97A1C4A1F3E0062EDA4 /* ViewController.swift in Sources */,
+				E47CA9A61C4A1FA50062EDA4 /* GameVC.swift in Sources */,
 				E47CA9781C4A1F3E0062EDA4 /* AppDelegate.swift in Sources */,
+				E47CA9A81C4A1FDB0062EDA4 /* RulesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +316,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E47CA97B1C4A1F3E0062EDA4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E47CA97C1C4A1F3E0062EDA4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E47CA9801C4A1F3E0062EDA4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
